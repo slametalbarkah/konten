@@ -3,174 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xiaomi 14 vs Samsung Galaxy S24: Mana Lebih Baik? [2024]</title>
-    <meta name="description" content="Perbandingan mendalam Xiaomi 14 vs Samsung Galaxy S24: spesifikasi, kamera, performa, harga, dan rekomendasi terbaik di 2024.">
+    <title>Xiaomi 14 Pro vs Samsung S24 Ultra: Uji Banding Flagship 2024 | Spesifikasi Lengkap</title>
+    <meta name="description" content="Perbandingan mendalam Xiaomi 14 Pro vs Samsung Galaxy S24 Ultra: chipset, kamera, baterai, layar, harga, dan rekomendasi ahli. Mana yang lebih worth dibeli?">
+    <meta name="keywords" content="Xiaomi 14 Pro, Samsung S24 Ultra, perbandingan flagship 2024, Snapdragon 8 Gen 3 vs Exynos 2400, kamera smartphone terbaik">
     <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #e74c3c;
+            --accent: #3498db;
+            --text: #333;
+            --light-bg: #f9f9f9;
+        }
         body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.7;
+            color: var(--text);
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #fff;
         }
         h1 {
-            color: #2c3e50;
-            font-size: 28px;
-            border-bottom: 2px solid #f39c12;
-            padding-bottom: 10px;
+            color: var(--primary);
+            font-size: 32px;
+            border-bottom: 3px solid var(--secondary);
+            padding-bottom: 12px;
+            margin-bottom: 25px;
         }
         h2 {
-            color: #3498db;
-            font-size: 24px;
-            margin-top: 30px;
+            color: var(--primary);
+            font-size: 26px;
+            margin-top: 40px;
+            border-left: 4px solid var(--accent);
+            padding-left: 12px;
+        }
+        h3 {
+            color: var(--secondary);
+            font-size: 22px;
+        }
+        .hero-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .phone-highlight {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background: var(--light-bg);
+        }
+        .phone-highlight img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        .price-tag {
+            font-weight: bold;
+            font-size: 20px;
+            color: var(--secondary);
+            margin: 10px 0;
         }
         .specs-table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
-        }
-        .specs-table th, .specs-table td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
+            margin: 25px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
         .specs-table th {
-            background-color: #f2f2f2;
+            background-color: var(--primary);
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+        .specs-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .specs-table tr:nth-child(even) {
+            background-color: var(--light-bg);
+        }
+        .winner-badge {
+            background-color: #27ae60;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+        .camera-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .camera-sample {
+            text-align: center;
+        }
+        .camera-sample img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        .pros-cons-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin: 40px 0;
         }
         .pros-cons {
-            display: flex;
-            gap: 20px;
-            margin: 25px 0;
-        }
-        .pros, .cons {
-            flex: 1;
-            padding: 15px;
-            border-radius: 5px;
+            padding: 20px;
+            border-radius: 8px;
         }
         .pros {
             background-color: #e8f5e9;
+            border-left: 4px solid #2ecc71;
         }
         .cons {
             background-color: #ffebee;
+            border-left: 4px solid #e74c3c;
         }
-        .highlight {
-            background-color: #f9f9f9;
-            padding: 15px;
-            border-left: 4px solid #f39c12;
-            margin: 20px 0;
-        }
-        .conclusion {
-            font-weight: bold;
-            background-color: #e8f4fc;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
+        .benchmark-results {
+            background-color: var(--light-bg);
+            padding: 20px;
             border-radius: 8px;
+            margin: 30px 0;
+        }
+        .conclusion-box {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 40px 0;
+        }
+        .faq-item {
+            margin-bottom: 25px;
+        }
+        .faq-question {
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+        @media (max-width: 768px) {
+            .hero-comparison, .camera-comparison, .pros-cons-container {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Xiaomi 14 vs Samsung Galaxy S24: Mana Lebih Baik di 2024?</h1>
+    <h1>Xiaomi 14 Pro vs Samsung Galaxy S24 Ultra: Pertarungan Flagship 2024</h1>
     
-    <div class="highlight">
-        <p><strong>Poin Utama:</strong> Xiaomi 14 unggul di harga dan performa chipset Snapdragon 8 Gen 3, sedangkan Galaxy S24 menang di kamera dan update software jangka panjang. Pilih sesuai kebutuhan!</p>
+    <div class="hero-comparison">
+        <div class="phone-highlight">
+            <h3>Xiaomi 14 Pro</h3>
+            <img src="https://example.com/xiaomi-14-pro.png" alt="Xiaomi 14 Pro" title="Xiaomi 14 Pro" loading="lazy">
+            <div class="price-tag">Rp15.999.000</div>
+            <p>Snapdragon 8 Gen 3 | Kamera Leica | 120W HyperCharge</p>
+        </div>
+        <div class="phone-highlight">
+            <h3>Samsung S24 Ultra</h3>
+            <img src="https://example.com/s24-ultra.png" alt="Samsung Galaxy S24 Ultra" title="S24 Ultra" loading="lazy">
+            <div class="price-tag">Rp24.999.000</div>
+            <p>Exynos 2400/Snapdragon 8 Gen 3 | Kamera 200MP | S Pen</p>
+        </div>
     </div>
 
-    <img src="https://example.com/xiaomi-14-vs-samsung-s24.jpg" alt="Perbandingan Xiaomi 14 dan Samsung Galaxy S24" title="Xiaomi 14 vs Samsung S24">
-
-    <h2>Spesifikasi Teknis</h2>
+    <h2>Spesifikasi Teknis Detail</h2>
     <table class="specs-table">
         <tr>
-            <th>Fitur</th>
-            <th>Xiaomi 14</th>
-            <th>Samsung Galaxy S24</th>
-        </tr>
-        <tr>
-            <td><strong>Harga</strong></td>
-            <td>Rp12.999.000</td>
-            <td>Rp18.999.000</td>
+            <th>Komponen</th>
+            <th>Xiaomi 14 Pro</th>
+            <th>Samsung S24 Ultra</th>
         </tr>
         <tr>
             <td><strong>Chipset</strong></td>
-            <td>Snapdragon 8 Gen 3</td>
-            <td>Exynos 2400 (Global)</td>
+            <td>Qualcomm Snapdragon 8 Gen 3 (4nm)</td>
+            <td>Samsung Exynos 2400 (Global) / Snapdragon 8 Gen 3 (US) <span class="winner-badge">VARIAN</span></td>
+        </tr>
+        <tr>
+            <td><strong>GPU</strong></td>
+            <td>Adreno 750</td>
+            <td>Xclipse 940 / Adreno 750</td>
+        </tr>
+        <tr>
+            <td><strong>RAM/Storage</strong></td>
+            <td>12GB/256GB, 16GB/512GB (LPDDR5X, UFS 4.0)</td>
+            <td>12GB/256GB, 12GB/512GB, 16GB/1TB</td>
+        </tr>
+        <tr>
+            <td><strong>Layar</strong></td>
+            <td>6.73" AMOLED 2K+ 120Hz LTPO (3000 nits)</td>
+            <td>6.8" Dynamic AMOLED 2X 120Hz LTPO (2600 nits) <span class="winner-badge">S PEN</span></td>
         </tr>
         <tr>
             <td><strong>Kamera Utama</strong></td>
-            <td>50 MP (Leica)</td>
-            <td>200 MP (Samsung)</td>
+            <td>50MP f/1.4-4.0 (Leica Summilux, OIS)</td>
+            <td>200MP f/1.7 (HP2, OIS)</td>
+        </tr>
+        <tr>
+            <td><strong>Kamera Tele</strong></td>
+            <td>50MP periscope 3.2x (OIS)</td>
+            <td>50MP 5x periscope + 10MP 3x (dual tele) <span class="winner-badge">WINNER</span></td>
+        </tr>
+        <tr>
+            <td><strong>Video</strong></td>
+            <td>8K@24fps, 4K@120fps (Dolby Vision HDR)</td>
+            <td>8K@30fps, 4K@120fps (Expert RAW)</td>
         </tr>
         <tr>
             <td><strong>Baterai</strong></td>
-            <td>4.610 mAh</td>
-            <td>4.000 mAh</td>
+            <td>4,880mAh (120W wired, 50W wireless)</td>
+            <td>5,000mAh (45W wired, 15W wireless) <span class="winner-badge">KAPASITAS</span></td>
         </tr>
         <tr>
-            <td><strong>Update OS</strong></td>
-            <td>3 tahun</td>
-            <td>5 tahun</td>
+            <td><strong>OS</strong></td>
+            <td>HyperOS (Android 14), 3 tahun update</td>
+            <td>One UI 6.1 (Android 14), 5 tahun update <span class="winner-badge">WINNER</span></td>
+        </tr>
+        <tr>
+            <td><strong>Lainnya</strong></td>
+            <td>IP68, stereo speaker, under-display fingerprint</td>
+            <td>IP68, S Pen, ultrasonic fingerprint, titanium frame</td>
         </tr>
     </table>
 
-    <h2>Kelebihan dan Kekurangan</h2>
-    <div class="pros-cons">
-        <div class="pros">
-            <h3>👍 Kelebihan Xiaomi 14</h3>
+    <h2>Uji Kamera: Hasil Samping-by-Samping</h2>
+    <div class="camera-comparison">
+        <div class="camera-sample">
+            <h3>Xiaomi 14 Pro (Leica)</h3>
+            <img src="https://example.com/xiaomi-camera-sample.jpg" alt="Sample kamera Xiaomi 14 Pro" loading="lazy">
+            <p><em>50MP mode | f/1.4 | Dynamic range lebih lebar</em></p>
+        </div>
+        <div class="camera-sample">
+            <h3>S24 Ultra (200MP)</h3>
+            <img src="https://example.com/s24u-camera-sample.jpg" alt="Sample kamera S24 Ultra" loading="lazy">
+            <p><em>200MP pixel-binning | f/1.7 | Detail lebih tajam</em></p>
+        </div>
+    </div>
+
+    <div class="benchmark-results">
+        <h3>Hasil Benchmark (Skor Tertinggi)</h3>
+        <ul>
+            <li><strong>Antutu v10:</strong> Xiaomi 14 Pro (1.58jt) vs S24 Ultra (1.42jt)</li>
+            <li><strong>Geekbench 6:</strong> Single-core: S24 Ultra (2150) | Multi-core: Xiaomi (6850)</li>
+            <li><strong>3DMark Wild Life:</strong> Xiaomi 14 Pro (14.500) vs S24 Ultra (12.800)</li>
+            <li><strong>PCMark Work 3.0:</strong> S24 Ultra (18.200) vs Xiaomi (17.900) <span class="winner-badge">STABILITAS</span></li>
+        </ul>
+    </div>
+
+    <div class="pros-cons-container">
+        <div class="pros-cons pros">
+            <h3>Kelebihan Xiaomi 14 Pro</h3>
             <ul>
-                <li>Harga lebih terjangkau</li>
-                <li>Performa gaming lebih kencang</li>
-                <li>Charging 90W super cepat</li>
+                <li>Harga lebih kompetitif (Rp9jt lebih murah)</li>
+                <li>Performan gaming lebih unggul (Snapdragon murni)</li>
+                <li>Charging super cepat 120W (0-100% dalam 19 menit)</li>
+                <li>Aperture kamera variabel (f/1.4-f/4.0)</li>
+                <li>Tampilan HyperOS lebih clean</li>
             </ul>
         </div>
-        <div class="cons">
-            <h3>👎 Kekurangan Xiaomi 14</h3>
+        <div class="pros-cons cons">
+            <h3>Kekurangan Xiaomi 14 Pro</h3>
             <ul>
-                <li>Software kurang optimal</li>
-                <li>Dukungan update lebih pendek</li>
+                <li>Update software lebih pendek (3 tahun)</li>
+                <li>Kamera tele hanya single periscope</li>
+                <li>Ekosistem aksesoris terbatas</li>
+                <li>Bodi lebih mudah tergores (GG Victus 2)</li>
+            </ul>
+        </div>
+        <div class="pros-cons pros">
+            <h3>Kelebihan S24 Ultra</h3>
+            <ul>
+                <li>Sistem kamera lebih versatile (dual telephoto)</li>
+                <li>Dukungan software 5 tahun + 4 Android update</li>
+                <li>S Pen integrated untuk produktivitas</li>
+                <li>Desain titanium premium + Gorilla Glass Armor</li>
+                <li>Kualitas layar lebih baik (Dynamic AMOLED 2X)</li>
+            </ul>
+        </div>
+        <div class="pros-cons cons">
+            <h3>Kekurangan S24 Ultra</h3>
+            <ul>
+                <li>Harga sangat premium (termahal di kelasnya)</li>
+                <li>Charging lambat (45W vs rival 100W+)</li>
+                <li>Exynos 2400 lebih panas saat gaming</li>
+                <li>Desain kotak kurang ergonomis</li>
             </ul>
         </div>
     </div>
 
-    <div class="pros-cons">
-        <div class="pros">
-            <h3>👍 Kelebihan Samsung S24</h3>
-            <ul>
-                <li>Kamera lebih versatile</li>
-                <li>Desain premium</li>
-                <li>Dukungan software 5 tahun</li>
-            </ul>
-        </div>
-        <div class="cons">
-            <h3>👎 Kekurangan Samsung S24</h3>
-            <ul>
-                <li>Harga sangat mahal</li>
-                <li>Baterai lebih kecil</li>
-            </ul>
-        </div>
-    </div>
-
-    <h2>Performa Benchmark (Antutu v10)</h2>
-    <ul>
-        <li><strong>Xiaomi 14:</strong> 1.450.000 poin</li>
-        <li><strong>Samsung S24:</strong> 1.210.000 poin</li>
-    </ul>
-
-    <h2>Rekomendasi: Pilih Mana?</h2>
-    <div class="conclusion">
-        <p>◼ <strong>Untuk Gaming & Harga Terbaik:</strong> Xiaomi 14<br>
-        ◼ <strong>Untuk Kamera & Long-Term Use:</strong> Samsung S24<br><br>
-        <em>Tip: Jika budget terbatas, pertimbangkan Xiaomi 14 dengan diskon e-commerce!</em></p>
+    <div class="conclusion-box">
+        <h2>Rekomendasi Ahli: Pilih Mana?</h2>
+        <p><strong>✔ Untuk Gamer & Tech Enthusiast:</strong> Xiaomi 14 Pro lebih unggul di performa mentah dan harga.</p>
+        <p><strong>✔ Untuk Profesional & Long-Term Use:</strong> S24 Ultra menang di ekosistem dan update jangka panjang.</p>
+        <p><strong>💡 Tip:</strong> Jika budget terbatas, Xiaomi 14 Pro menawarkan 90% fitur S24 Ultra dengan harga 35% lebih murah!</p>
     </div>
 
     <h2>FAQ Populer</h2>
-    <p><strong>Q: Mana yang lebih tahan banting?</strong><br>
-    A: Samsung S24 memiliki rating IP68 vs IP67 pada Xiaomi 14.</p>
-
-    <p><strong>Q: Mana layar lebih bagus?</strong><br>
-    A: Keduanya AMOLED 120Hz, tapi S24 punya brightness lebih tinggi (2.600 nits).</p>
+    <div class="faq-item">
+        <div class="faq-question">Q: Mana yang lebih tahan banting?</div>
+        <p>A: S24 Ultra menggunakan frame titanium + Gorilla Glass Armor, sementara Xiaomi memakai aluminium + GG Victus 2. Samsung jelas lebih durable.</p>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Q: Apakah Exynos 2400 lebih buruk dari Snapdragon?</div>
+        <p>A: Di S24 Ultra, Exynos 2400 unggul di efisiensi baterai tapi kalah 10-15% di performa gaming berat dibanding varian Snapdragon.</p>
+    </div>
+    <div class="faq-item">
+        <div class="faq-question">Q: Mana yang layarnya lebih bagus?</div>
+        <p>A: Keduanya AMOLED 120Hz LTPO. Samsung lebih cerah (2600 vs 3000 nits) tapi Xiaomi punya adaptive refresh rate 1-120Hz yang lebih smooth.</p>
+    </div>
 </body>
 </html>
